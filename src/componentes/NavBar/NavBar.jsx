@@ -1,5 +1,7 @@
-import "./NavBar.css"
 import CardWidget from "../CardWidget/CardWidget"
+import { Link,NavLink } from "react-router-dom"
+import "./NavBar.css"
+
 
 const NavBar = () => {
   return (
@@ -21,17 +23,23 @@ const NavBar = () => {
         </div>
       </div>
       <div className="logo">
+      <Link to={"/"}>
         <h1 href="index.html">
           <img className="logo__img" src="./img/LOGO_BLANCO.PNG" alt="LOGO" />
         </h1>
+        </Link>
       </div>
+      
       <nav>
         <ul className="header__ul button">
-          <li className="button__li--select"><h3 ClassName="button__li--a" href="index.html">Inicio</h3></li>
+          <li className="button__li button__li--a"> <NavLink to={"/categoria/1"}> Microprocesadores</NavLink></li>
+          <li className="button__li button__li--a"> <NavLink to={"/categoria/2"}>Mothers</NavLink></li>
+          <li className="button__li button__li--a"> <NavLink to={"/categoria/3"}>Memorias</NavLink></li>
+         {/*  <li className="button__li--select"><h3 ClassName="button__li--a" href="index.html">Inicio</h3></li>
           <li ClassName="button__li"><h3 href="./pages/servicios_internet.html">Internet</h3></li>
           <li ClassName="button__li"><h3 href="./pages/servicios_gaming.html">Gaming</h3></li>
           <li ClassName="button__li"><h3 href="./pages/nosotros.html">Nosotros</h3></li>
-          <li ClassName="button__li"><h3 href="./pages/contacto.html">Contacto</h3></li>
+          <li ClassName="button__li"><h3 href="./pages/contacto.html">Contacto</h3></li> */}
           <CardWidget/>
         </ul>
        
