@@ -12,20 +12,20 @@ const NavBar = () => {
         </p>
         <div className="header__icons">
           <a href="https://www.instagram.com/gaming.sic/">
-            <img src="./img/instagram_icon.png" alt="Instagram" />
+            <img src="../img/instagram_icon.png" alt="Instagram" />
           </a>
           <a href>
-            <img src="./img/whatsapp_icon.png" alt="Whatsapp" />
+            <img src="../img/whatsapp_icon.png" alt="Whatsapp" />
           </a>
           <a href="https://www.facebook.com/SICCOMPUTACION">
-            <img src="./img/facebook_icon.png" alt="Facebook" />
+            <img src="../img/facebook_icon.png" alt="Facebook" />
           </a>
         </div>
       </div>
       <div className="logo">
       <Link to={"/"}>
         <h1 href="index.html">
-          <img className="logo__img" src="./img/LOGO_BLANCO.PNG" alt="LOGO" />
+          <img className="logo__img" src="../img/LOGO_BLANCO.PNG" alt="LOGO" />
         </h1>
         </Link>
       </div>
