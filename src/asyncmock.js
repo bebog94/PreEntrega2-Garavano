@@ -1,10 +1,10 @@
 const productos = [
-    {id:"1", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "1",stock:12},
-    {id:"2", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "1",stock:2},
-    {id:"3", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "2",stock:5},
-    {id:"4", nombre:"Intel i5", precio: 120000, img: "../img/inteli5.jpg",idCat: "2",stock:45},
-    {id:"5", nombre:"Intel i7", precio: 150000, img: "../img/inteli7.jpg",idCat: "3",stock:41},
-    {id:"6", nombre:"Intel i9", precio: 180000, img: "../img/inteli9.jpg",idCat: "3",stock:10},
+    {id:"1", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "1",maximoStock:12},
+    {id:"2", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "1",maximoStock:2},
+    {id:"3", nombre:"Intel i3", precio: 100000, img: "../img/inteli3.jpg",idCat: "2",maximoStock:5},
+    {id:"4", nombre:"Intel i5", precio: 120000, img: "../img/inteli5.jpg",idCat: "2",maximoStock:45},
+    {id:"5", nombre:"Intel i7", precio: 150000, img: "../img/inteli7.jpg",idCat: "3",maximoStock:41},
+    {id:"6", nombre:"Intel i9", precio: 180000, img: "../img/inteli9.jpg",idCat: "3",maximoStock:10},
 
 ]
 

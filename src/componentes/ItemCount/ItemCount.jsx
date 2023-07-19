@@ -1,9 +1,9 @@
 import { useState } from "react"
 
-const ItemCount = (maximoStock) => {
+const ItemCount = ({inicial,maximoStock,funcionAgregar}) => {
 
     
-    const [contador,setContador]=useState(0);
+    const [contador,setContador]=useState(inicial);
 
     const aumentarContador = () => {
         if (contador < maximoStock) {
@@ -12,7 +12,7 @@ const ItemCount = (maximoStock) => {
       };
     
     const disminuirContador = () =>{
-        if (contador > 0){
+        if (contador > inicial){
             setContador(contador - 1);
         }
 
@@ -26,6 +26,7 @@ const ItemCount = (maximoStock) => {
           {contador}  
         <button onClick={aumentarContador}>+</button>
     </h4>
+    <button onClick={()=> funcionAgregar(contador)}>Agregar al Carrito</button>
     </>
   )
 }
